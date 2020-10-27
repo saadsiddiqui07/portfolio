@@ -1,0 +1,11 @@
+body {
+  --main-color: #00d8ff;
+  --background: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.app {
+  background-color: var(--background);
+  height: 100vh;
+  width: 100vw;
+}
