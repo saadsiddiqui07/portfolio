@@ -6,11 +6,23 @@
 }
 
 .navbar__logo {
+  height: 65px;
   color: var(--main-color);
-  text-decoration: none;
-  font-size: 50px !important;
   margin-left: 15px;
   padding: 20px;
+ -webkit-animation: spin 2s linear infinite;
+  animation: spin 3s linear infinite; 
+  object-fit: contain;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .navbar__icons {
@@ -19,7 +31,7 @@
 }
 .navbar__icon {
   color: var(--main-color);
-  font-size: 50px !important;
+  font-size: 55px !important;
   margin-right: 20px;
 }
 
@@ -86,7 +98,7 @@
 
 @media (max-width: 800px) {
   .navbar__logo {
-    font-size: 40px !important;
+    height: 50px;
   }
 
   .navbar__icon {

@@ -4,7 +4,7 @@ import { Menu, MenuItem } from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/CloseOutlined";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import ImportantDevicesIcon from "@material-ui/icons/ImportantDevices";
+import reactLogo from "../assets/logo192.png";
 
 function Navbar() {
   const [clicked, setClicked] = useState(false);
@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <Link to="/">
-        <ImportantDevicesIcon className="navbar__logo" />
+        <img src={reactLogo} alt="reactjs" className="navbar__logo" />
       </Link>
 
       <ul className="navbar__links">
