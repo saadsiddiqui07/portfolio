@@ -10,12 +10,12 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home__container">
-        <h1>Hi I'am Saad Siddiqui.</h1>
-        <h2>React-JS Front-end Developer.</h2>
+        <h1>Hi I am Saad Siddiqui.</h1>
+        <h2>ReactJS Front-end Developer.</h2>
         <h4>I code elegant && simple components.</h4>
       </div>
       <img src={myAvatar} alt="" />
-      <Button onClick={() => history.push("/about")}> View more.</Button>
+      <Button onClick={() => history.push("/about")}> View more</Button>
     </div>
   );
 };

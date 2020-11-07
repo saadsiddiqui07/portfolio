@@ -25,7 +25,7 @@ const About = () => {
         </p>
       </div>
 
-      <Button onClick={() => history.push("/projects")}>View projects.</Button>
+      <Button onClick={() => history.push("/projects")}>View projects</Button>
     </div>
   );
 };
