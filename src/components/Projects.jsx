@@ -17,7 +17,7 @@ const Projects = () => {
           <h3>Netflix Clone</h3>
           <img src={netflixImage} alt="Netflix" />
           <p>
-            This is a netflix frontend clone built using React-JS and deployes
+            This is a netflix frontend clone built using ReactJS and deployes
             using firebase(BAAS), The information is fetched with a third party
             API which TMDP API which is totally free. It is a mobile responsive
             website.
@@ -34,7 +34,7 @@ const Projects = () => {
           <h3>Amazon Clone</h3>
           <img src={amazonImage} alt="Amazon" />
           <p>
-            Built with React-JS and deployed using firebase(BAAS). It has full
+            Built with ReactJS and deployed using firebase(BAAS). It has full
             user authentication with sign In/Out. Managing state with
             CONTEXT-API for adding and removing items from the cart. Mobile
             responsive web app.
@@ -50,7 +50,7 @@ const Projects = () => {
           <h3>Messenger Clone</h3>
           <img src={messengerImage} alt="Messenger" />
           <p>
-            Built using React-JS and deployed using firebase(BAAS). This a chat
+            Built using ReactJS and deployed using firebase(BAAS). This a chat
             web app with full chat functionality. You can enter your name in the
             prompt and chat with multiple users at the same time. This is a
             mobile responsive web application.
@@ -67,7 +67,7 @@ const Projects = () => {
           <h3>WhatsApp Clone</h3>
           <img src={whatsAppImage} alt="WhatsApp" />
           <p>
-            Built using React-JS and deployed using firebase(BAAS). Users can
+            Built using ReactJS and deployed using firebase(BAAS). Users can
             make their own rooms and chat with other users. It has google
             authentication where a user can sign In/Out using their google
             account. This is only for desktop.
