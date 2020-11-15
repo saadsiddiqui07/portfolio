@@ -17,7 +17,7 @@ const Projects = () => {
           <h3>Netflix Clone</h3>
           <img src={netflixImage} alt="Netflix" />
           <p>
-            This is a netflix frontend clone built using ReactJS and deployes
+            This is a netflix frontend clone built using ReactJS and deployed
             using firebase(BAAS), The information is fetched with a third party
             API which TMDP API which is totally free. It is a mobile responsive
             website.
