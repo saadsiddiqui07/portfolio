@@ -25,6 +25,9 @@ const Projects = () => {
           <a
             className="projects__button"
             href="https://netflix-clone-d9f68.web.app/"
+            target="_blank"
+            without
+            rel="noopener noreferrer"
           >
             View website <span>⇗</span>
           </a>
@@ -40,7 +43,13 @@ const Projects = () => {
             responsive web app.
           </p>
 
-          <a className="projects__button" href="https://clone-a43e0.web.app/">
+          <a
+            target="_blank"
+            without
+            rel="noopener noreferrer"
+            className="projects__button"
+            href="https://clone-a43e0.web.app/"
+          >
             View website <span>⇗</span>
           </a>
         </div>
@@ -58,6 +67,9 @@ const Projects = () => {
 
           <a
             className="projects__button"
+            target="_blank"
+            without
+            rel="noopener noreferrer"
             href="https://messenger-clone-7.web.app/"
           >
             View website <span>⇗</span>
@@ -76,6 +88,9 @@ const Projects = () => {
           <a
             className="projects__button"
             href="https://whatsapp-clone-7.web.app/"
+            target="_blank"
+            without
+            rel="noopener noreferrer"
           >
             View website <span>⇗</span>
           </a>
