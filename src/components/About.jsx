@@ -13,11 +13,11 @@ const About = () => {
       <div className="about__container">
         <img src={myImage} alt="saad" />
         <p>
-          Hello! I am <span className="name">Saad Siddiqui</span>. I am an 18
-          years old self taught Front-end Developer who loves to make elegant
-          websites and web applications using REACT-JS. I am a college student
-          who is pursuing a computer science degree. I've been coding in
-          REACT-JS for more than six months with a clean hand in{" "}
+          Hello! I am <span className="name">Saad Siddiqui</span>. I'm a 19
+          years old meticulous Frontend Developer who loves to make elegant &
+          responsive websites and web applications using REACT-JS. I am a
+          college student who is pursuing a computer science degree. I've been
+          coding in REACTJS for more than 1+ years with a clean hand in{" "}
           <span className="tools">REACT CONTEXT-API && REACT-REDUX</span> for
           state management and also <span>REACT HOOKS</span>. I am familiar with
           dev tools such as: <span>git,</span> <span>npm, </span>
