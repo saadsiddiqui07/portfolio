@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
-import InstagramIcon from "@material-ui/icons/Instagram";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const Contact = () => {
   return (
@@ -12,28 +12,31 @@ const Contact = () => {
       </div>
       <div className="contact__container">
         <div className="container__icons">
-          <a href="https://github.com/saadsiddiqui07">
+          <a href="https://github.com/saadsiddiqui07" target="_blank">
             <GitHubIcon className="main__icons" fontSize="large" />
             <p>saadsiddiqui07</p>
           </a>
         </div>
-
         <div className="container__icons">
-          <a href="https://www.instagram.com/saadsiddiqui7_/">
-            <InstagramIcon fontSize="large" className="main__icons" />
-            <p>saadsiddiqui_7</p>
+          <a href="https://www.gmail.com" target="_blank">
+            {" "}
+            <EmailIcon fontSize="large" className="main__icons" />
+            <p>siddiquisaad1601@gmail.com</p>
           </a>
         </div>
         <div className="container__icons">
-          <a href="https://www.gmail.com">
+          <a
+            href="https://www.linkedin.com/in/saad-siddiqui-0867391a3"
+            target="_blank"
+          >
             {" "}
-            <EmailIcon fontSize="large" className="main__icons" />
-            <p>saadsiddiqui927@gmail.com</p>
+            <LinkedInIcon fontSize="large" className="main__icons" />
+            <p>Saad Siddiqui</p>
           </a>
         </div>
       </div>
       <div className="contact__footer">
-        <span>Saad Siddiqui © 2020</span>
+        <span>Saad Siddiqui © 2021</span>
       </div>
     </div>
   );
